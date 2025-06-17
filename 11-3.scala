@@ -44,7 +44,7 @@ object Main {
         mhsUrut.foreach{
             case (nim, (nama, totalNilai, jumlahMK)) =>
                 var ipk = totalNilai / jumlahMK
-                println(s"$nama ${ipk%.2f}")
+                println(f"$nama $ipk%.2f")
         }
     }
 }
